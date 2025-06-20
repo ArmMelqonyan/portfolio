@@ -31,23 +31,29 @@
       <div
         class="container max-w-7xl mx-auto flex justify-between items-center gap-10 py-4 px-8"
       >
-        <div
+        <input type="checkbox" id="burger_check" />
+        <label class="burger" for="burger_check">
+          <div class="line top"></div>
+          <div class="line middle"></div>
+          <div class="line bottom"></div>
+        </label>
+        <a
           class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
         >
           Logo
-        </div>
-        <nav class="">
-          <ul
-            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+        </a>
+        <nav class="header_nav">
+          <menu
+            class="header_navlist flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
           >
-            <li class="text-[var(--c-theme-light)]">
+            <li class="header_link header_active text-[var(--c-theme-light)]">
               <a href="" class="">Home</a>
             </li>
-            <li class=""><a href="" class="">Service</a></li>
-            <li class=""><a href="" class="">About Me</a></li>
-            <li class=""><a href="" class="">Portfolio</a></li>
-            <li class=""><a href="" class="">contact Me</a></li>
-          </ul>
+            <li class="header_link"><a href="" class="">Service</a></li>
+            <li class="header_link"><a href="" class="">About Me</a></li>
+            <li class="header_link"><a href="" class="">Portfolio</a></li>
+            <li class="header_link"><a href="" class="">contact Me</a></li>
+          </menu>
         </nav>
         <button
           class="bg-[var(--c-theme-light)] font-[Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg"
@@ -320,15 +326,19 @@
               <div
                 class="rounded-full w-8/10 h-8/10 absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-            
+
               <div
                 class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
               >
                 <i class="fa-brands fa-html5"></i>
               </div>
 
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
               <span class="text-[var(--c-theme-light)] text-3xl font-bold"
@@ -347,15 +357,19 @@
               <div
                 class="rounded-full w-8/10 h-8/10 absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-           
+
               <div
                 class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
               >
                 <i class="fa-brands fa-css"></i>
               </div>
 
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
               <span class="text-[var(--c-theme-light)] text-3xl font-bold"
@@ -374,15 +388,19 @@
               <div
                 class="rounded-full w-8/10 h-8/10 absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-             
+
               <div
                 class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
               >
                 <i class="fa-brands fa-js"></i>
               </div>
 
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-54 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-54 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
               <span class="text-[var(--c-theme-light)] text-3xl font-bold"
@@ -401,15 +419,19 @@
               <div
                 class="rounded-full w-8/10 h-8/10 absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-             
+
               <div
                 class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
               >
                 <i class="fa-brands fa-react"></i>
               </div>
 
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-144 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-144 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
               <span class="text-[var(--c-theme-light)] text-3xl font-bold"
@@ -428,14 +450,18 @@
               <div
                 class="rounded-full w-8/10 h-8/10 absolute top-1/2 left-1/2 -translate-1/2 bg-[var(--c-grey-1)]"
               ></div>
-            
+
               <div
                 class="text-[var(--c-grey-9)] absolute top-1/2 left-1/2 -translate-1/2 text-8xl"
               >
                 <i class="fa-brands fa-python"></i>
               </div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
-              <div class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-108 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
+              <div
+                class="w-1/10 h-full absolute top-1/2 left-1/2 -translate-1/2 rotate-108 after:content-[''] after:w-full after:aspect-square after:bg-[var(--c-theme-light)] after:rounded-full after:block"
+              ></div>
             </div>
             <div class="flex flex-col justify-center items-center gap-4">
               <span class="text-[var(--c-theme-light)] text-3xl font-bold"
@@ -449,105 +475,270 @@
         </div>
       </section>
       <section class="py-25">
-        <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-25">
-            <h2 class="text-5xl text-white font-bold tracking-wide">Portfolio</h2>
-          
+        <div
+          class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-25"
+        >
+          <h2 class="text-5xl text-white font-bold tracking-wide">Portfolio</h2>
+
           <div class="grid grid-cols-3 gap-8">
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image1.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image1.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image2.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image2.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image3.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image3.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image3.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image3.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image1.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image1.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image2.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image2.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image1.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image1.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image2.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image2.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
             <div class="rounded-2xl overflow-hidden">
               <div class="aspect-[3/4]">
-                <img class="w-full h-full object-cover object-center " src="../assets/image3.png" alt=" image1"></div>
-              <div class="flex justify-between items-center p-4 bg-white/8 ">
-                <span class="text-base text-[var(--c-grey-d)] font-bold ">Project name</span>
-                <span class="text-base text-[var(--c-grey-9)] font-bold">Categories</span>
+                <img
+                  class="w-full h-full object-cover object-center"
+                  src="../assets/image3.png"
+                  alt=" image1"
+                />
+              </div>
+              <div class="flex justify-between items-center p-4 bg-white/8">
+                <span class="text-base text-[var(--c-grey-d)] font-bold"
+                  >Project name</span
+                >
+                <span class="text-base text-[var(--c-grey-9)] font-bold"
+                  >Categories</span
+                >
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-10 ">
-          <h2 class="text-5xl text-white font-bold tracking-wide">Contact Me</h2>
-          <p class="text-[var(--c-grey-9)] text-center text-xl leading-[1.5]">Cultivating Connections: Reach Out and Connect with Me</p>
-          <form class="grid gap-6 grid-cols-2 grid-rows-[1fr_1fr_3fr_1fr]">
-            <input type="text" placeholder="Name" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-            <input type="text" placeholder="Email" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-            <input type="text" placeholder="Phone number" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-            <input type="text" placeholder="Service of Interest" class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg">
-            <textarea placeholder="Your Opinion" class=" resize-none col-span-2 text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg "></textarea>
-           
-          <button
-          class="justify-self-center col-span-2 [var(--c-theme-light)] cursor-pointer [Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg hover:border-none hover:border-[var(--c-theme-dark)] hover:bg-[var(--c-theme-dark)]"
+      <section class="py-20">
+        <div
+          class="container max-w-7xl mx-auto flex flex-col justify-center items-center gap-10"
         >
-          Send
-        </button>
+          <h2 class="text-5xl text-white font-bold tracking-wide">
+            Contact Me
+          </h2>
+          <p class="text-[var(--c-grey-9)] text-center text-xl leading-[1.5]">
+            Cultivating Connections: Reach Out and Connect with Me
+          </p>
+          <form class="grid gap-6 grid-cols-2 grid-rows-[1fr_1fr_3fr_1fr]">
+            <input
+              type="text"
+              placeholder="Name"
+              class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"
+            />
+            <input
+              type="tel"
+              placeholder="Phone number"
+              class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"
+            />
+            <input
+              type="text"
+              placeholder="Service of Interest"
+              class="text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"
+            />
+            <textarea
+              placeholder="Your Opinion"
+              class="resize-none col-span-2 text-base text-[var(--c-grey-9)] bg-white/4 py-4 px-6 rounded-lg"
+            ></textarea>
+
+            <button
+              class="justify-self-center col-span-2 [var(--c-theme-light)] cursor-pointer [Lato] text-white font-bold text-base tracking-wide whitespace-nowrap px-10 py-3 rounded-lg hover:border-none hover:border-[var(--c-theme-dark)] hover:bg-[var(--c-theme-dark)]"
+            >
+              Send
+            </button>
           </form>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-white/4 py-10">
+      <div
+        class="container max-w-7xl mx-auto flex flex-col items-center justify-center gap-8"
+      >
+        <a
+          class="bg-linear-to-r from-[var(--c-theme-light)] to-[var(--c-theme-accent)] bg-clip-text text-transparent font-[K2D] text-3xl font-bold uppercase tracking-wide"
+        >
+          Logo
+        </a>
+        <nav class="">
+          <menu
+            class="flex jusify-center items-center tex-xl text-[var(--c-grey-9)] font-medium tracking-wide gap-15 whitespace-nowrap"
+          >
+            <li class="text-[var(--c-grey-9)]">
+              <a href="" class="">Home</a>
+            </li>
+            <li class=""><a href="" class="">Service</a></li>
+            <li class=""><a href="" class="">About Me</a></li>
+            <li class=""><a href="" class="">Portfolio</a></li>
+            <li class=""><a href="" class="">contact Me</a></li>
+          </menu>
+        </nav>
+        <div class="inline-flex gap-4">
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-dribbble"></i
+          ></a>
+          <a
+            class="bg-white/4 aspect-square block rounded-full w-10 text-[var(--c-grey-b)] flex justify-center items-center text-xl"
+            ><i class="fa-brands fa-behance"></i
+          ></a>
+        </div>
+        <div class="text-white flex gap-10 *:flex *:gap-4 *:items-center">
+          <div class="text-[var(--c-grey-9)]">
+            <i class="fa-regular fa-envelope"></i>
+            <span>armanmelqonyan257@gmail.com</span>
+          </div>
+          <div class="text-[var(--c-grey-9)]">
+            <i class="fa-solid fa-phone"></i>
+            <span>+37494830864</span>
+          </div>
+        </div>
+
+        <p
+          class="text-[var(--c-grey-7)] border-t border-t-[var(--c-grey-7)] pt-8"
+        >
+          Designed by Arman.Melqonyan fullstack web developer
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
