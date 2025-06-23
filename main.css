@@ -125,10 +125,7 @@ rotate: -45deg;
  bottom: 0;
  right: 0;
 }
-#burger_check:checked ~.header_nav{
- display: block;
- 
-}
+
 
 .header_navlist{
     width: 100%;
